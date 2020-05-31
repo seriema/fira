@@ -15,6 +15,7 @@ document.fira.kalender = {
     },
     // April
     3: {
+        28: [{ name: "Hertha Ayrton", year: 1854, source: "https://en.wikipedia.org/wiki/Hertha_Ayrton" }],
     },
     // May
     4: {
@@ -45,7 +46,10 @@ document.fira.kalender = {
     },
     // December
     11: {
-        10: [{ name: "Ada Lovelace", year: 1815, source: "https://en.wikipedia.org/wiki/Ada_Lovelace" }],
+        10: [{ name: "Ada Lovelace", year: 1815, source: "https://en.wikipedia.org/wiki/Ada_Lovelace" }
+            ,{ name: "Margaret Eliza Maltby", year: 1860, source: "https://en.wikipedia.org/wiki/Margaret_Eliza_Maltby" }],
+        19: [{ name: "Mileva Marić", year: 1875, source: "https://en.wikipedia.org/wiki/Mileva_Mari%C4%87" }],
+        26: [{ name: "Mary Somerville", year: 1780, source: "https://en.wikipedia.org/wiki/Mary_Somerville" }],
         28: [{ name: "Linus Torvalds", year: 1969 }],
         30: [{ name: "Emilie Martin", year: 1869, source: "https://en.wikipedia.org/wiki/Emilie_Martin" }],
     }
