@@ -16,7 +16,7 @@ if (firaDate) {
 
     // If available, show how long ago the person was born
     if (fira.year) {
-        $fira.innerHTML += `<p>som föddes för ${year - fira.year} år sedan</p>`;
+        $fira.innerHTML += `<p>som föddes för ${year - fira.year} år sedan!</p>`;
     }
 
     // Use a hand picked image
