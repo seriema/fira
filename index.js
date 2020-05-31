@@ -6,4 +6,4 @@ const firaDate = document.fira.kalender[month][date];
 
 const $fira = document.getElementById("fira-node");
 
-$fira.innerHTML = firaDate ? `<h3>${firaDate[0].name}<h3>` : "<h3>dig själv!</h3>";
+$fira.innerHTML = firaDate ? `<h3>${firaDate[0].name}</h3>` : "<h3>dig själv!</h3>";
