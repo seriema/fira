@@ -1,4 +1,5 @@
 const today = new Date();
+const year = today.getFullYear();
 const month = today.getMonth();
 const date = today.getDate();
 
@@ -12,6 +13,11 @@ if (firaDate) {
     const fira = firaDate[0];
 
     $fira.innerHTML = `<h3>${fira.name}</h3>`;
+
+    // If available, show how long ago the person was born
+    if (fira.year) {
+        $fira.innerHTML += `<p>som föddes för ${year - fira.year} år sedan</p>`;
+    }
 
     // Use a hand picked image
     if (fira.image) {
