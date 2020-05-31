@@ -40,7 +40,7 @@ document.fira.kalender = {
     },
     // July
     6: {
-        10: [{ name: "Nikola Tesla", year: 1856 }],
+        10: [{ name: "Nikola Tesla", year: 1856, source: "https://en.wikipedia.org/wiki/Nikola_Tesla" }],
         11: [{ name: "Milly Koss", year: 1928, source: "https://en.wikipedia.org/wiki/Milly_Koss" }],
         15: [{ name: "Almira Hart Lincoln Phelps", year: 1793, source: "https://en.wikipedia.org/wiki/Almira_Hart_Lincoln_Phelps" }],
         21: [{ name: "Barbara J. Grosz", year: 1948, source: "https://en.wikipedia.org/wiki/Barbara_J._Grosz" }],
@@ -89,7 +89,7 @@ document.fira.kalender = {
         17: [{ name: "Mary Cartwright", year: 1900, source: "https://en.wikipedia.org/wiki/Mary_Cartwright" }],
         19: [{ name: "Mileva Marić", year: 1875, source: "https://en.wikipedia.org/wiki/Mileva_Mari%C4%87" }],
         26: [{ name: "Mary Somerville", year: 1780, source: "https://en.wikipedia.org/wiki/Mary_Somerville" }],
-        28: [{ name: "Linus Torvalds", year: 1969 }],
+        28: [{ name: "Linus Torvalds", year: 1969, source: "https://en.wikipedia.org/wiki/Linus_Torvalds" }],
         30: [{ name: "Emilie Martin", year: 1869, source: "https://en.wikipedia.org/wiki/Emilie_Martin" }],
     }
 };
