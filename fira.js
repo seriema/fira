@@ -39,5 +39,6 @@ document.fira.kalender = {
     },
     // December
     11: {
+        28: [{ name: "Linus Torvalds", year: 1969 }],
     }
 };
