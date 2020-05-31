@@ -16,7 +16,7 @@ document.fira.kalender = {
     // May
     4: {
         // Borrowed mechanics from johansson.jp/fika for today as it's mother's day
-        [lastDayInMonth(0, 4).getDate()]: [{ name: "Mamma! (Mors dag)" }],
+        [lastDayInMonth(0, 4).getDate()]: [{ name: "Mamma! (Mors dag)", image: "jp_mother.jpg" }],
     },
     // June
     5: {
