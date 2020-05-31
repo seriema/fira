@@ -7,15 +7,18 @@ document.fira.kalender = {
     // February
     1: {
         7: [{ name: "Lin Lanying", year: 1918, source: "https://en.wikipedia.org/wiki/Lin_Lanying" }],
+        15: [{ name: "Sofya Kovalevskaya", year: 1850, source: "https://en.wikipedia.org/wiki/Sofya_Kovalevskaya" }],
     },
     // March
     2: {
+        23: [{ name: "Emmy Noether", year: 1882, source: "https://en.wikipedia.org/wiki/Emmy_Noether" }],
     },
     // April
     3: {
     },
     // May
     4: {
+        12: [{ name: "Florence Nightingale", year: 1820, source: "https://en.wikipedia.org/wiki/Florence_Nightingale" }],
         // Borrowed mechanics from johansson.jp/fika for today as it's mother's day
         [lastDayInMonth(0, 4).getDate()]: [{ name: "Mamma! (Mors dag)", image: "jp_mother.jpg" }],
     },
@@ -41,6 +44,8 @@ document.fira.kalender = {
     },
     // December
     11: {
+        10: [{ name: "Ada Lovelace", year: 1815, source: "https://en.wikipedia.org/wiki/Ada_Lovelace" }],
         28: [{ name: "Linus Torvalds", year: 1969 }],
+        30: [{ name: "Emilie Martin", year: 1869, source: "https://en.wikipedia.org/wiki/Emilie_Martin" }],
     }
 };
