@@ -28,13 +28,15 @@ if (firaDate) {
         // Try to get a picture of the birthday person :)
         const imageHeight = 300;
         const wikimediaUrl = `https://en.wikipedia.org/w/api.php?origin=*&action=query&titles=${fira.name}&prop=pageimages&format=json&pithumbsize=${imageHeight}`;
-
         fetch(wikimediaUrl, { mode: 'cors' })
             .then(response => response.json())
             .then(data => {
                 const pageKeys = Object.keys(data.query.pages);
-                const imageUrl = data.query.pages[pageKeys[0]].thumbnail.source;
-                $fira.innerHTML += `<img src="${imageUrl}" />`
+                const page = data.query.pages[pageKeys[0]];
+                if (!page.thumbnail || !page.thumbnail.source) {
+                    return;
+                }
+                $fira.innerHTML += `<img src="${page.thumbnail.source}" />`
             });
     }
 }
