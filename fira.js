@@ -3,6 +3,7 @@ document.fira = {};
 document.fira.kalender = {
     // January
     0: {
+        1: [{ name: "Jane Marcet", year: 1769, source: "https://en.wikipedia.org/wiki/Jane_Marcet" }],
     },
     // February
     1: {
@@ -30,10 +31,12 @@ document.fira.kalender = {
     // July
     6: {
         10: [{ name: "Nikola Tesla", year: 1856 }],
+        15: [{ name: "Almira Hart Lincoln Phelps", year: 1793, source: "https://en.wikipedia.org/wiki/Almira_Hart_Lincoln_Phelps" }],
         25: [{ name: "Margaret Floy Washburn", year: 1871, source: "https://en.wikipedia.org/wiki/Margaret_Floy_Washburn" }],
     },
     // August
     7: {
+        19: [{ name: "Jane C. Loudon", year: 1807, source: "https://en.wikipedia.org/wiki/Jane_C._Loudon" }],
     },
     // September
     8: {
@@ -45,6 +48,8 @@ document.fira.kalender = {
     // November
     10: {
         7: [{ name: "Lise Meitner", year: 1878, source: "https://en.wikipedia.org/wiki/Lise_Meitner" }],
+        // Wikipedia: "Josephine Silone's birth is given variously as 1852, and as November 15, 1859."
+        15: [{ name: "Josephine Silone Yates", year: 1859, source: "https://en.wikipedia.org/wiki/Josephine_Silone_Yates" }],
     },
     // December
     11: {
