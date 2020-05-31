@@ -41,6 +41,7 @@ document.fira.kalender = {
     },
     // November
     10: {
+        7: [{ name: "Lise Meitner", year: 1878, source: "https://en.wikipedia.org/wiki/Lise_Meitner" }],
     },
     // December
     11: {
