@@ -12,6 +12,7 @@ document.fira.kalender = {
     // March
     2: {
         23: [{ name: "Emmy Noether", year: 1882, source: "https://en.wikipedia.org/wiki/Emmy_Noether" }],
+        30: [{ name: "Mary Whiton Calkins", year: 1863, source: "https://en.wikipedia.org/wiki/Mary_Whiton_Calkins" }],
     },
     // April
     3: {
@@ -29,6 +30,7 @@ document.fira.kalender = {
     // July
     6: {
         10: [{ name: "Nikola Tesla", year: 1856 }],
+        25: [{ name: "Margaret Floy Washburn", year: 1871, source: "https://en.wikipedia.org/wiki/Margaret_Floy_Washburn" }],
     },
     // August
     7: {
@@ -46,6 +48,8 @@ document.fira.kalender = {
     },
     // December
     11: {
+        1: [{ name: "Christine Ladd-Franklin", year: 1847, source: "https://en.wikipedia.org/wiki/Christine_Ladd-Franklin" }],
+        3: [{ name: "Anna Freud", year: 1895, source: "https://en.wikipedia.org/wiki/Anna_Freud" }],
         10: [{ name: "Ada Lovelace", year: 1815, source: "https://en.wikipedia.org/wiki/Ada_Lovelace" }
             ,{ name: "Margaret Eliza Maltby", year: 1860, source: "https://en.wikipedia.org/wiki/Margaret_Eliza_Maltby" }],
         19: [{ name: "Mileva Marić", year: 1875, source: "https://en.wikipedia.org/wiki/Mileva_Mari%C4%87" }],
