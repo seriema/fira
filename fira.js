@@ -6,6 +6,7 @@ document.fira.kalender = {
     },
     // February
     1: {
+        7: [{ name: "Lin Lanying", year: 1918, source: "https://en.wikipedia.org/wiki/Lin_Lanying" }],
     },
     // March
     2: {
@@ -30,6 +31,7 @@ document.fira.kalender = {
     },
     // September
     8: {
+        23: [{ name: "Emily Warren Roebling", year: 1843, source: "https://en.wikipedia.org/wiki/Emily_Warren_Roebling" }],
     },
     // October
     9: {
