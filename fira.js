@@ -45,6 +45,7 @@ document.fira.kalender = {
         15: [{ name: "Almira Hart Lincoln Phelps", year: 1793, source: "https://en.wikipedia.org/wiki/Almira_Hart_Lincoln_Phelps" }],
         21: [{ name: "Barbara J. Grosz", year: 1948, source: "https://en.wikipedia.org/wiki/Barbara_J._Grosz" }],
         25: [{ name: "Margaret Floy Washburn", year: 1871, source: "https://en.wikipedia.org/wiki/Margaret_Floy_Washburn" }],
+        29: [{ name: "Susan Blackmore", year: 1951, source: "https://en.wikipedia.org/wiki/Susan_Blackmore" }],
     },
     // August
     7: {
@@ -69,6 +70,7 @@ document.fira.kalender = {
     9: {
         22: [{ name: "Marguerite Lehr", year: 1898, source: "https://en.wikipedia.org/wiki/Marguerite_Lehr" }],
         29: [{ name: "Cicely Popplewell", year: 1920, source: "https://en.wikipedia.org/wiki/Cicely_Popplewell" }],
+        30: [{ name: "Florence Yeldham", year: 1877, source: "https://en.wikipedia.org/wiki/Florence_Yeldham" }],
     },
     // November
     10: {
