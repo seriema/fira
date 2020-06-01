@@ -4,6 +4,7 @@ document.fira.kalender = {
     // January
     0: {
         1: [{ name: "Jane Marcet", year: 1769, source: "https://en.wikipedia.org/wiki/Jane_Marcet" }],
+        3: [{ name: "Marianne Simmel", year: 1923, source: "https://en.wikipedia.org/wiki/Marianne_Simmel" }],
         17: [{ name: "Anita Borg", year: 1949, source: "https://en.wikipedia.org/wiki/Anita_Borg" }],
         30: [{ name: "Ida Holz", year: 1935, source: "https://en.wikipedia.org/wiki/Ida_Holz" }],
     },
@@ -22,12 +23,15 @@ document.fira.kalender = {
         22: [{ name: "Margaret Millington", year: 1944, source: "https://en.wikipedia.org/wiki/Margaret_Millington" }],
         23: [{ name: "Emmy Noether", year: 1882, source: "https://en.wikipedia.org/wiki/Emmy_Noether" }],
         26: [{ name: "Marion Cameron Gray", year: 1902, source: "https://en.wikipedia.org/wiki/Marion_Cameron_Gray" }],
-        27: [{ name: "Elsie MacGill", year: 1905, source: "https://en.wikipedia.org/wiki/Elsie_MacGill" }],
+        27: [{ name: "Elsie MacGill", year: 1905, source: "https://en.wikipedia.org/wiki/Elsie_MacGill" }
+            ,{ name: "Nora Volkow", year: 1956, source: "https://en.wikipedia.org/wiki/Nora_Volkow" }],
         30: [{ name: "Mary Whiton Calkins", year: 1863, source: "https://en.wikipedia.org/wiki/Mary_Whiton_Calkins" }
             ,{ name: "Cecilia Berdichevsky", year: 1925, source: "https://en.wikipedia.org/wiki/Cecilia_Berdichevsky" }],
     },
     // April
     3: {
+        13: [{ name: "Martha E. Bernal", year: 1931, source: "https://en.wikipedia.org/wiki/Martha_E._Bernal" }],
+        18: [{ name: "Mamie Phipps Clark", year: 1917, source: "https://en.wikipedia.org/wiki/Mamie_Phipps_Clark" }],
         28: [{ name: "Hertha Ayrton", year: 1854, source: "https://en.wikipedia.org/wiki/Hertha_Ayrton" }],
     },
     // May
@@ -36,11 +40,14 @@ document.fira.kalender = {
         8: [{ name: "Maria Tereza Jorge Pádua", year: 1943, source: "https://en.wikipedia.org/wiki/Maria_Tereza_Jorge_P%C3%A1dua" }],
         12: [{ name: "Florence Nightingale", year: 1820, source: "https://en.wikipedia.org/wiki/Florence_Nightingale" }
             ,{ name: "Maryam Mirzakhani", year: 1977, source: "https://en.wikipedia.org/wiki/Maryam_Mirzakhani" }],
+        14: [{ name: "Helen Flanders Dunbar", year: 1902, source: "https://en.wikipedia.org/wiki/Helen_Flanders_Dunbar" }],
+        25: [{ name: "Catherine G. Wolf", year: 1947, source: "https://en.wikipedia.org/wiki/Catherine_G._Wolf" }],
         // Borrowed mechanics from johansson.jp/fika for today as it's mother's day
         [lastDayInMonth(0, 4).getDate()]: [{ name: "Mamma! (Mors dag)", image: "jp_mother.jpg" }],
     },
     // June
     5: {
+        18: [{ name: "Tsuruko Haraguchi", year: 1886, source: "https://en.wikipedia.org/wiki/Tsuruko_Haraguchi" }],
     },
     // July
     6: {
@@ -49,7 +56,8 @@ document.fira.kalender = {
             ,{ name: "Julia King", year: 1954, source: "https://en.wikipedia.org/wiki/Julia_King,_Baroness_Brown_of_Cambridge" }],
         15: [{ name: "Almira Hart Lincoln Phelps", year: 1793, source: "https://en.wikipedia.org/wiki/Almira_Hart_Lincoln_Phelps" }],
         21: [{ name: "Barbara J. Grosz", year: 1948, source: "https://en.wikipedia.org/wiki/Barbara_J._Grosz" }],
-        25: [{ name: "Margaret Floy Washburn", year: 1871, source: "https://en.wikipedia.org/wiki/Margaret_Floy_Washburn" }],
+        25: [{ name: "Margaret Floy Washburn", year: 1871, source: "https://en.wikipedia.org/wiki/Margaret_Floy_Washburn" }
+            ,{ name: "Davida Teller", year: 1938, source: "https://en.wikipedia.org/wiki/Davida_Teller" }],
         29: [{ name: "Susan Blackmore", year: 1951, source: "https://en.wikipedia.org/wiki/Susan_Blackmore" }
             ,{ name: "Ana María Flores", year: 1952, source: "https://en.wikipedia.org/wiki/Ana_Mar%C3%ADa_Flores" }],
     },
@@ -73,11 +81,14 @@ document.fira.kalender = {
         20: [{ name: "Vera Faddeeva", year: 1906, source: "https://en.wikipedia.org/wiki/Vera_Faddeeva" }
             ,{ name: "Dorothy Vaughan", year: 1910, source: "https://en.wikipedia.org/wiki/Dorothy_Vaughan" }],
         23: [{ name: "Emily Warren Roebling", year: 1843, source: "https://en.wikipedia.org/wiki/Emily_Warren_Roebling" }],
+        25: [{ name: "Margaret Kennard", year: 1899, source: "https://en.wikipedia.org/wiki/Margaret_Kennard" }
+            ,{ name: "Rosalie Rayner", year: 1898, source: "https://en.wikipedia.org/wiki/Rosalie_Rayner" }],
         // Florence Violet McKenzie was born in either 1890 or 1892, both dates have sources
         28: [{ name: "Florence Violet McKenzie", year: 1890, source: "https://en.wikipedia.org/wiki/Florence_Violet_McKenzie" }],
     },
     // October
     9: {
+        1: [{ name: "Margo Wilson", year: 1942, source: "https://en.wikipedia.org/wiki/Margo_Wilson" }],
         9: [{ name: "Frances Bradfield", year: 1895, source: "https://en.wikipedia.org/wiki/Frances_Bradfield" }],
         22: [{ name: "Marguerite Lehr", year: 1898, source: "https://en.wikipedia.org/wiki/Marguerite_Lehr" }],
         29: [{ name: "Cicely Popplewell", year: 1920, source: "https://en.wikipedia.org/wiki/Cicely_Popplewell" }],
@@ -94,7 +105,8 @@ document.fira.kalender = {
     },
     // December
     11: {
-        1: [{ name: "Christine Ladd-Franklin", year: 1847, source: "https://en.wikipedia.org/wiki/Christine_Ladd-Franklin" }],
+        1: [{ name: "Christine Ladd-Franklin", year: 1847, source: "https://en.wikipedia.org/wiki/Christine_Ladd-Franklin" }
+            ,{ name: "Mary Ainsworth", year: 1913, source: "https://en.wikipedia.org/wiki/Mary_Ainsworth" }],
         3: [{ name: "Anna Freud", year: 1895, source: "https://en.wikipedia.org/wiki/Anna_Freud" }],
         6: [{ name: "Deborah Estrin", year: 1959, source: "https://en.wikipedia.org/wiki/Deborah_Estrin" }],
         9: [{ name: "Grace Hopper", year: 1906, inventions: ["linkers", "COBOL"], source: "https://en.wikipedia.org/wiki/Grace_Hopper" }],
