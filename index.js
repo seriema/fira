@@ -26,8 +26,10 @@ if (firaDate) {
     // Otherwise, feel lucky with Wikipedia
     else {
         // Try to get a picture of the birthday person :)
+        const wikipediaTitle = fira.source.replace("https://en.wikipedia.org/wiki/", "") || fira.name;
+
         const imageHeight = 300;
-        const wikimediaUrl = `https://en.wikipedia.org/w/api.php?origin=*&action=query&titles=${fira.name}&prop=pageimages&format=json&pithumbsize=${imageHeight}`;
+        const wikimediaUrl = `https://en.wikipedia.org/w/api.php?origin=*&action=query&titles=${wikipediaTitle}&prop=pageimages&format=json&pithumbsize=${imageHeight}`;
         fetch(wikimediaUrl, { mode: 'cors' })
             .then(response => response.json())
             .then(data => {
