@@ -8,6 +8,7 @@ document.fira.kalender = {
         6: [{ name: "Edith Anne Stoney", year: 1869, source: "https://en.wikipedia.org/wiki/Edith_Anne_Stoney" }],
         7: [{ name: "Joan Maie Freeman", year: 1918, source: "https://en.wikipedia.org/wiki/Joan_Maie_Freeman" }],
         10: [{ name: "Katharine Burr Blodgett", year: 1898, source: "https://en.wikipedia.org/wiki/Katharine_Burr_Blodgett" }],
+        15: [{ name: "Sofya Kovalevskaya", year: 1850, source: "https://en.wikipedia.org/wiki/Sofya_Kovalevskaya" }],
         16: [{ name: "Renata Kallosh", year: 1943, source: "https://en.wikipedia.org/wiki/Renata_Kallosh" }],
         17: [{ name: "Anita Borg", year: 1949, source: "https://en.wikipedia.org/wiki/Anita_Borg" }
             ,{ name: "Lili Bleeker", year: 1897, source: "https://en.wikipedia.org/wiki/Lili_Bleeker" }],
@@ -27,7 +28,6 @@ document.fira.kalender = {
         14: [{ name: "Agnes Pockels", year: 1862, source: "https://en.wikipedia.org/wiki/Agnes_Pockels" }],
         15: [{ name: "Doris Kuhlmann-Wilsdorf", year: 1922, source: "https://en.wikipedia.org/wiki/Doris_Kuhlmann-Wilsdorf" }],
         17: [{ name: "Rózsa Péter", year: 1905, source: "https://en.wikipedia.org/wiki/R%C3%B3zsa_P%C3%A9ter" }],
-        15: [{ name: "Sofya Kovalevskaya", year: 1850, source: "https://en.wikipedia.org/wiki/Sofya_Kovalevskaya" }],
         20: [{ name: "Katharine Way", year: 1902, source: "https://en.wikipedia.org/wiki/Katharine_Way" }],
         21: [{ name: "Margaret Anne LeMone", year: 1946, source: "https://en.wikipedia.org/wiki/Margaret_Anne_LeMone" }],
         22: [{ name: "Gail Hanson", year: 1947, source: "https://en.wikipedia.org/wiki/Gail_Hanson" }],
