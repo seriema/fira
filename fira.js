@@ -25,7 +25,8 @@ document.fira.kalender = {
         7: [{ name: "Lin Lanying", year: 1918, source: "https://en.wikipedia.org/wiki/Lin_Lanying" }],
         9: [{ name: "Lorella Jones", year: 1943, source: "https://en.wikipedia.org/wiki/Lorella_Jones" }],
         13: [{ name: "Fay Ajzenberg-Selove", year: 1926, source: "https://en.wikipedia.org/wiki/Fay_Ajzenberg-Selove" }],
-        14: [{ name: "Agnes Pockels", year: 1862, source: "https://en.wikipedia.org/wiki/Agnes_Pockels" }],
+        14: [{ name: "Agnes Pockels", year: 1862, source: "https://en.wikipedia.org/wiki/Agnes_Pockels" }
+            ,{ name: "Margaret E. Knight", year: 1838, inventions: ["flat-bottomed paper bag", "lid removing pliers", "a numbering machine", "a window frame and sash"], source: "https://en.wikipedia.org/wiki/Margaret_E._Knight" }],
         15: [{ name: "Doris Kuhlmann-Wilsdorf", year: 1922, source: "https://en.wikipedia.org/wiki/Doris_Kuhlmann-Wilsdorf" }],
         17: [{ name: "Rózsa Péter", year: 1905, source: "https://en.wikipedia.org/wiki/R%C3%B3zsa_P%C3%A9ter" }],
         20: [{ name: "Katharine Way", year: 1902, source: "https://en.wikipedia.org/wiki/Katharine_Way" }],
@@ -40,6 +41,7 @@ document.fira.kalender = {
         12: [{ name: "Lyudmila Keldysh", year: 1904, source: "https://en.wikipedia.org/wiki/Lyudmila_Keldysh" }],
         13: [{ name: "Inge Lehmann", year: 1888, source: "https://en.wikipedia.org/wiki/Inge_Lehmann" }],
         19: [{ name: "Xie Xide", year: 1921, source: "https://en.wikipedia.org/wiki/Xie_Xide" }],
+        21: [{ name: "Mary Dixon Kies", year: 1752, inventions: ["technique of weaving straw with silk and thread to make hats"], source: "https://en.wikipedia.org/wiki/Mary_Dixon_Kies" }],
         22: [{ name: "Margaret Millington", year: 1944, source: "https://en.wikipedia.org/wiki/Margaret_Millington" }],
         23: [{ name: "Emmy Noether", year: 1882, source: "https://en.wikipedia.org/wiki/Emmy_Noether" }],
         25: [{ name: "Caroline Herzenberg", year: 1932, source: "https://en.wikipedia.org/wiki/Caroline_Herzenberg" }],
@@ -159,7 +161,8 @@ document.fira.kalender = {
     },
     // November
     10: {
-        4: [{ name: "Sulamith Goldhaber", year: 1923, source: "https://en.wikipedia.org/wiki/Sulamith_Goldhaber" }],
+        4: [{ name: "Sulamith Goldhaber", year: 1923, source: "https://en.wikipedia.org/wiki/Sulamith_Goldhaber" },
+            ,{ name: "Hanna Hammarström", year: 1829, inventions: ["telephone wire production method (in Sweden)"], source: "https://en.wikipedia.org/wiki/Hanna_Hammarstr%C3%B6m" }],
         7: [{ name: "Lise Meitner", year: 1878, source: "https://en.wikipedia.org/wiki/Lise_Meitner" }
             ,{ name: "Barbara Liskov", year: 1939, source: "https://en.wikipedia.org/wiki/Barbara_Liskov" }],
         11: [{ name: "Mildred Dresselhaus", year: 1930, source: "https://en.wikipedia.org/wiki/Mildred_Dresselhaus" }],
@@ -177,10 +180,12 @@ document.fira.kalender = {
         3: [{ name: "Anna Freud", year: 1895, source: "https://en.wikipedia.org/wiki/Anna_Freud" }],
         6: [{ name: "Deborah Estrin", year: 1959, source: "https://en.wikipedia.org/wiki/Deborah_Estrin" }
             ,{ name: "Elizabeth Laird", year: 1874, source: "https://en.wikipedia.org/wiki/Elizabeth_Laird_(physicist)" }],
-        9: [{ name: "Grace Hopper", year: 1906, inventions: ["linkers", "COBOL"], source: "https://en.wikipedia.org/wiki/Grace_Hopper" }],
+        9: [{ name: "Grace Hopper", year: 1906, inventions: ["linkers", "COBOL"], source: "https://en.wikipedia.org/wiki/Grace_Hopper" },
+            { name: "Tabitha Babbitt", year: 1779, inventions: ["circular saw", "spinning wheel head", "false teeth"], source: "https://en.wikipedia.org/wiki/Tabitha_Babbitt" }],
         10: [{ name: "Ada Lovelace", year: 1815, source: "https://en.wikipedia.org/wiki/Ada_Lovelace" }
             ,{ name: "Margaret Eliza Maltby", year: 1860, source: "https://en.wikipedia.org/wiki/Margaret_Eliza_Maltby" }],
         11: [{ name: "Toshiko Yuasa", year: 1909, source: "https://en.wikipedia.org/wiki/Toshiko_Yuasa" }],
+        12: [{ name: "Martha Coston", year: 1826, inventions: ["Coston flare"], source: "https://en.wikipedia.org/wiki/Martha_Coston" }],
         17: [{ name: "Mary Cartwright", year: 1900, source: "https://en.wikipedia.org/wiki/Mary_Cartwright" }
             ,{ name: "Mariana Weissmann", year: 1933, source: "https://en.wikipedia.org/wiki/Mariana_Weissmann" }],
         18: [{ name: "Magda Ericson", year: 1929, source: "https://en.wikipedia.org/wiki/Magda_Ericson" }],
