@@ -1,7 +1,6 @@
-const today = new Date();
-const year = today.getFullYear();
-const month = today.getMonth();
-const date = today.getDate();
+const year = document.fika.year;
+const month = document.fika.month;
+const date = document.fika.date;
 
 const firaDate = document.fira.kalender[month][date];
 
