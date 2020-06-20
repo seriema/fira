@@ -1,19 +1,19 @@
 const today = new Date();
 
-const fira = document.fira.kalender;
+const kalender = document.fira.kalender;
 const $fira = document.getElementById("fira-node");
 let birthdayDates = 0;
 let birthdays = 0;
 
-Object.keys(fira).forEach((month) => {
+Object.keys(kalender).forEach((month) => {
     const $monthHeader = document.createElement("h3");
     $monthHeader.innerText = (new Date(today.getFullYear(), month)).toLocaleDateString('sv-SE', { month: "long" })
     $fira.appendChild($monthHeader);
 
     const $month = document.createElement("ul");
-    Object.keys(fira[month]).forEach((date) => {
+    Object.keys(kalender[month]).forEach((date) => {
         birthdayDates++;
-        fira[month][date].forEach((firaDate) => {
+        kalender[month][date].forEach((firaDate) => {
             birthdays++;
             const $date = document.createElement("li");
 
