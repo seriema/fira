@@ -8,8 +8,8 @@ const $fira = document.getElementById("fira-node");
 
 // Celebrate someone's birthday
 if (firaDate) {
-    // Pick the first birthday person for now
-    const fira = firaDate[0];
+    // Pick a random birthday person
+    const fira = firaDate[Math.floor(Math.random() * firaDate.length)];
 
     $fira.innerHTML = `<h3>${fira.name}</h3>`;
 
