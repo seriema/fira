@@ -11,7 +11,8 @@ if (firaDate) {
     // Pick a random birthday person
     const fira = firaDate[Math.floor(Math.random() * firaDate.length)];
 
-    $fira.innerHTML = `<h3>${fira.name}</h3>`;
+    // Let visitors get to know the person on Wikipedia
+    $fira.innerHTML = `<h3><a href="${fira.source}">${fira.name}</a></h3>`;
 
     // If available, show how long ago the person was born
     if (fira.year) {
